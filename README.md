@@ -44,7 +44,7 @@ AutoJoomer will help you join classes on time (IIIT Kottayam) by automatic log-i
 ## Installation(macOS)
 1. Download all the files to a folder either by the "Download as ZIP" button or by cloning the repo.
 
-2. Open your Safari, navigate to Safari->Preferences->Extensions.
+2. Launch Safari, navigate to Safari->Preferences->Extensions.
 3. If AutoJoomer is there, check it. 
 4. Else follow these steps:
 
@@ -62,20 +62,11 @@ DONE!!
 ## Installation(iOS)
 1. Download all the files to a folder either by the "Download as ZIP" button or by cloning the repo.
 
-2. Open your Safari, navigate to Safari->Preferences->Extensions.
-3. If AutoJoomer is there, check it. 
-4. Else follow these steps:
+2. Open your Settings, navigate to Extensions->AutoJoomer->ON.
+3. Launch Safari, and tap the "aA" menu
+4. Tap on "AutoJoomer" and then "Always allow".
 
-   a) Go to Safari->Preferences->Advanced
-   
-   b) Check "Show Develop menu in menu bar"
-   
-   c) Go back to safari menu->develop and check "Allow Unsigned Extensions.
-
-5. click on "AutoJoomer" logo in the panel left to link displayer.
-6. Set the required values, click "SAVE"
-
-DONE!!
+There we go!!
 
 
 ## How to stay updated
