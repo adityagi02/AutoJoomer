@@ -37,16 +37,25 @@
     
 
 # AutoJoomer
-AutoJoomer will help you join classes on time (IIIT Kottayam ). Works for all classes, including labs; and also coding classes; fetches data from hosted database which can be changed whenever there are changes in the timetable.
+AutoJoomer will help you join classes on time (IIIT Kottayam). Works for all classes, including labs; and also coding classes; fetches data from hosted database which can be changed whenever there are changes in the timetable.
 
 
 
-## Installation
+## Installation(macOS)
 1. Download all the files to a folder either by the "Download as ZIP" button or by cloning the repo.
 <p align='center'><img src="screenshots/ziporclone.jpg"/></p>
 
-2. Open your browser, navigate to "Extensions" panel -> "Manage Extensions".
-3. Enable "Developer Mode" in the top-right.
+2. Open your Safari, navigate to Safari->Preferences->Extensions.
+3. If AutoJoomer is there, check it. 
+4. Else if it not visible
+
+   a) Go to Safari->Preferences->Advanced
+   
+   b) Check "Show Develop menu in menu bar"
+   
+   c) Go back to safari menu->develop and check "Allow Unsigned Extensions"
+   
+Done!! 
 
 <p align='center'><img src="screenshots/devmode.jpg"/></p>
 
