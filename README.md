@@ -37,33 +37,46 @@
     
 
 # AutoJoomer
-AutoJoomer will help you join classes on time (IIIT Kottayam). Works for all classes, including labs; and also coding classes; fetches data from hosted database which can be changed whenever there are changes in the timetable.
+AutoJoomer will help you join classes on time (IIIT Kottayam) by automatic log-in. In case you open your browser after a class has already started, the extension will automatically add you to that class as well, as the class started in the last hour. Works for all classes, including labs; and also coding classes; fetches data from hosted database which can be changed whenever there are changes in the timetable.
 
 
 
 ## Installation(macOS)
 1. Download all the files to a folder either by the "Download as ZIP" button or by cloning the repo.
-<p align='center'><img src="screenshots/ziporclone.jpg"/></p>
 
 2. Open your Safari, navigate to Safari->Preferences->Extensions.
 3. If AutoJoomer is there, check it. 
-4. Else if it not visible
+4. Else follow these steps:
 
    a) Go to Safari->Preferences->Advanced
    
    b) Check "Show Develop menu in menu bar"
    
-   c) Go back to safari menu->develop and check "Allow Unsigned Extensions"
+   c) Go back to safari menu->develop and check "Allow Unsigned Extensions.
+
+5. click on "AutoJoomer" logo in the panel left to link displayer.
+6. Set the required values, click "SAVE"
+
+DONE!!
+
+## Installation(iOS)
+1. Download all the files to a folder either by the "Download as ZIP" button or by cloning the repo.
+
+2. Open your Safari, navigate to Safari->Preferences->Extensions.
+3. If AutoJoomer is there, check it. 
+4. Else follow these steps:
+
+   a) Go to Safari->Preferences->Advanced
    
-Done!! 
+   b) Check "Show Develop menu in menu bar"
+   
+   c) Go back to safari menu->develop and check "Allow Unsigned Extensions.
 
-<p align='center'><img src="screenshots/devmode.jpg"/></p>
+5. click on "AutoJoomer" logo in the panel left to link displayer.
+6. Set the required values, click "SAVE"
 
-4. Click on "Load Unpacked" and select the folder where you downloaded/cloned the files.
-5. Navigate to "Extensions" panel -> click on "AutoJoomer".
-6. Set the required values, click "SAVE", and restart your browser / reload the extension.
+DONE!!
 
-<p align='center'><img src="screenshots/autojoomer.jpg" width='500' height='500'/></p>
 
 ## How to stay updated
 To stay up-to-date with the latest version hosted on github, while being in the same directory where the downloaded files are, run
