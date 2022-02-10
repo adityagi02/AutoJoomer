@@ -1,0 +1,1059 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAA3DBD27B4E7220003990D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA3DBC27B4E7220003990D /* AppDelegate.swift */; };
+		ACAA3DBF27B4E7220003990D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA3DBE27B4E7220003990D /* SceneDelegate.swift */; };
+		ACAA3DC227B4E7220003990D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DC027B4E7220003990D /* LaunchScreen.storyboard */; };
+		ACAA3DC527B4E7220003990D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DC327B4E7220003990D /* Main.storyboard */; };
+		ACAA3DCE27B4E7220003990D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA3DCD27B4E7220003990D /* AppDelegate.swift */; };
+		ACAA3DD127B4E7220003990D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DCF27B4E7220003990D /* Main.storyboard */; };
+		ACAA3DD927B4E7220003990D /* AutoJoomer Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ACAA3DD827B4E7220003990D /* AutoJoomer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ACAA3DE327B4E7220003990D /* AutoJoomer Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ACAA3DE227B4E7220003990D /* AutoJoomer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ACAA3DE927B4E7220003990D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DAC27B4E7200003990D /* Main.html */; };
+		ACAA3DEA27B4E7220003990D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DAC27B4E7200003990D /* Main.html */; };
+		ACAA3DEB27B4E7220003990D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DAE27B4E7200003990D /* Icon.png */; };
+		ACAA3DEC27B4E7220003990D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DAE27B4E7200003990D /* Icon.png */; };
+		ACAA3DED27B4E7220003990D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DAF27B4E7200003990D /* Style.css */; };
+		ACAA3DEE27B4E7220003990D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DAF27B4E7200003990D /* Style.css */; };
+		ACAA3DEF27B4E7220003990D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DB027B4E7200003990D /* Script.js */; };
+		ACAA3DF027B4E7220003990D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DB027B4E7200003990D /* Script.js */; };
+		ACAA3DF127B4E7220003990D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA3DB127B4E7200003990D /* ViewController.swift */; };
+		ACAA3DF227B4E7220003990D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA3DB127B4E7200003990D /* ViewController.swift */; };
+		ACAA3DF327B4E7220003990D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DB227B4E7220003990D /* Assets.xcassets */; };
+		ACAA3DF427B4E7220003990D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3DB227B4E7220003990D /* Assets.xcassets */; };
+		ACAA3DF527B4E7220003990D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA3DB427B4E7220003990D /* SafariWebExtensionHandler.swift */; };
+		ACAA3DF627B4E7220003990D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAA3DB427B4E7220003990D /* SafariWebExtensionHandler.swift */; };
+		ACAA3E2027B4E7230003990D /* full_page.html in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0927B4E7230003990D /* full_page.html */; };
+		ACAA3E2127B4E7230003990D /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0A27B4E7230003990D /* popup.js */; };
+		ACAA3E2227B4E7230003990D /* autojoomer.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0B27B4E7230003990D /* autojoomer.png */; };
+		ACAA3E2327B4E7230003990D /* logger.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0C27B4E7230003990D /* logger.js */; };
+		ACAA3E2427B4E7230003990D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0D27B4E7230003990D /* LICENSE */; };
+		ACAA3E2527B4E7230003990D /* backup.json in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0E27B4E7230003990D /* backup.json */; };
+		ACAA3E2627B4E7230003990D /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0F27B4E7230003990D /* popup.html */; };
+		ACAA3E2727B4E7230003990D /* firebase-app.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1027B4E7230003990D /* firebase-app.js */; };
+		ACAA3E2827B4E7230003990D /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1127B4E7230003990D /* script.js */; };
+		ACAA3E2927B4E7230003990D /* ajax.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1227B4E7230003990D /* ajax.js */; };
+		ACAA3E2A27B4E7230003990D /* contributors.html in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1327B4E7230003990D /* contributors.html */; };
+		ACAA3E2B27B4E7230003990D /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1427B4E7230003990D /* CONTRIBUTING.md */; };
+		ACAA3E2C27B4E7230003990D /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1527B4E7230003990D /* style.css */; };
+		ACAA3E2D27B4E7230003990D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1627B4E7230003990D /* manifest.json */; };
+		ACAA3E2E27B4E7230003990D /* version_updates.json in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1727B4E7230003990D /* version_updates.json */; };
+		ACAA3E2F27B4E7230003990D /* contributors.css in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1827B4E7230003990D /* contributors.css */; };
+		ACAA3E3027B4E7230003990D /* firebase-database.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1927B4E7230003990D /* firebase-database.js */; };
+		ACAA3E3127B4E7230003990D /* timetable.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1A27B4E7230003990D /* timetable.js */; };
+		ACAA3E3227B4E7230003990D /* firebase-analytics.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1B27B4E7230003990D /* firebase-analytics.js */; };
+		ACAA3E3327B4E7230003990D /* cool-background.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1C27B4E7230003990D /* cool-background.png */; };
+		ACAA3E3427B4E7230003990D /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1D27B4E7230003990D /* reload.png */; };
+		ACAA3E3527B4E7230003990D /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1E27B4E7230003990D /* jquery.js */; };
+		ACAA3E3727B4E7230003990D /* full_page.html in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0927B4E7230003990D /* full_page.html */; };
+		ACAA3E3827B4E7230003990D /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0A27B4E7230003990D /* popup.js */; };
+		ACAA3E3927B4E7230003990D /* autojoomer.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0B27B4E7230003990D /* autojoomer.png */; };
+		ACAA3E3A27B4E7230003990D /* logger.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0C27B4E7230003990D /* logger.js */; };
+		ACAA3E3B27B4E7230003990D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0D27B4E7230003990D /* LICENSE */; };
+		ACAA3E3C27B4E7230003990D /* backup.json in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0E27B4E7230003990D /* backup.json */; };
+		ACAA3E3D27B4E7230003990D /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E0F27B4E7230003990D /* popup.html */; };
+		ACAA3E3E27B4E7230003990D /* firebase-app.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1027B4E7230003990D /* firebase-app.js */; };
+		ACAA3E3F27B4E7230003990D /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1127B4E7230003990D /* script.js */; };
+		ACAA3E4027B4E7230003990D /* ajax.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1227B4E7230003990D /* ajax.js */; };
+		ACAA3E4127B4E7230003990D /* contributors.html in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1327B4E7230003990D /* contributors.html */; };
+		ACAA3E4227B4E7230003990D /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1427B4E7230003990D /* CONTRIBUTING.md */; };
+		ACAA3E4327B4E7230003990D /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1527B4E7230003990D /* style.css */; };
+		ACAA3E4427B4E7230003990D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1627B4E7230003990D /* manifest.json */; };
+		ACAA3E4527B4E7230003990D /* version_updates.json in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1727B4E7230003990D /* version_updates.json */; };
+		ACAA3E4627B4E7230003990D /* contributors.css in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1827B4E7230003990D /* contributors.css */; };
+		ACAA3E4727B4E7230003990D /* firebase-database.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1927B4E7230003990D /* firebase-database.js */; };
+		ACAA3E4827B4E7230003990D /* timetable.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1A27B4E7230003990D /* timetable.js */; };
+		ACAA3E4927B4E7230003990D /* firebase-analytics.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1B27B4E7230003990D /* firebase-analytics.js */; };
+		ACAA3E4A27B4E7230003990D /* cool-background.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1C27B4E7230003990D /* cool-background.png */; };
+		ACAA3E4B27B4E7230003990D /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1D27B4E7230003990D /* reload.png */; };
+		ACAA3E4C27B4E7230003990D /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = ACAA3E1E27B4E7230003990D /* jquery.js */; };
+		ACC3CB3B27B545BF00A4CA8F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC3CB3A27B545BF00A4CA8F /* icon.png */; };
+		ACC3CB3C27B545BF00A4CA8F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC3CB3A27B545BF00A4CA8F /* icon.png */; };
+		ACC3CB3D27B545BF00A4CA8F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC3CB3A27B545BF00A4CA8F /* icon.png */; };
+		ACC3CB3E27B545BF00A4CA8F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC3CB3A27B545BF00A4CA8F /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACAA3DDA27B4E7220003990D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAA3DA627B4E7200003990D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAA3DD727B4E7220003990D;
+			remoteInfo = "AutoJoomer Extension (iOS)";
+		};
+		ACAA3DE427B4E7220003990D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAA3DA627B4E7200003990D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAA3DE127B4E7220003990D;
+			remoteInfo = "AutoJoomer Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ACAA3DFC27B4E7220003990D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ACAA3DD927B4E7220003990D /* AutoJoomer Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA3E0327B4E7220003990D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ACAA3DE327B4E7220003990D /* AutoJoomer Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ACAA3DAD27B4E7200003990D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		ACAA3DAE27B4E7200003990D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		ACAA3DAF27B4E7200003990D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		ACAA3DB027B4E7200003990D /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		ACAA3DB127B4E7200003990D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACAA3DB227B4E7220003990D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACAA3DB427B4E7220003990D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		ACAA3DB927B4E7220003990D /* AutoJoomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoJoomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAA3DBC27B4E7220003990D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACAA3DBE27B4E7220003990D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACAA3DC127B4E7220003990D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACAA3DC427B4E7220003990D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACAA3DC627B4E7220003990D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAA3DCB27B4E7220003990D /* AutoJoomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoJoomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAA3DCD27B4E7220003990D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACAA3DD027B4E7220003990D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACAA3DD227B4E7220003990D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAA3DD327B4E7220003990D /* AutoJoomer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoJoomer.entitlements; sourceTree = "<group>"; };
+		ACAA3DD827B4E7220003990D /* AutoJoomer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AutoJoomer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAA3DDD27B4E7220003990D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAA3DE227B4E7220003990D /* AutoJoomer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AutoJoomer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAA3DE727B4E7220003990D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAA3DE827B4E7220003990D /* AutoJoomer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoJoomer.entitlements; sourceTree = "<group>"; };
+		ACAA3E0927B4E7230003990D /* full_page.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = full_page.html; path = "../../AutoJoomer-Safari/full_page.html"; sourceTree = "<group>"; };
+		ACAA3E0A27B4E7230003990D /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = "../../AutoJoomer-Safari/popup.js"; sourceTree = "<group>"; };
+		ACAA3E0B27B4E7230003990D /* autojoomer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = autojoomer.png; path = "../../AutoJoomer-Safari/autojoomer.png"; sourceTree = "<group>"; };
+		ACAA3E0C27B4E7230003990D /* logger.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = logger.js; path = "../../AutoJoomer-Safari/logger.js"; sourceTree = "<group>"; };
+		ACAA3E0D27B4E7230003990D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../AutoJoomer-Safari/LICENSE"; sourceTree = "<group>"; };
+		ACAA3E0E27B4E7230003990D /* backup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = backup.json; path = "../../AutoJoomer-Safari/backup.json"; sourceTree = "<group>"; };
+		ACAA3E0F27B4E7230003990D /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../AutoJoomer-Safari/popup.html"; sourceTree = "<group>"; };
+		ACAA3E1027B4E7230003990D /* firebase-app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "firebase-app.js"; path = "../../AutoJoomer-Safari/firebase-app.js"; sourceTree = "<group>"; };
+		ACAA3E1127B4E7230003990D /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = script.js; path = "../../AutoJoomer-Safari/script.js"; sourceTree = "<group>"; };
+		ACAA3E1227B4E7230003990D /* ajax.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = ajax.js; path = "../../AutoJoomer-Safari/ajax.js"; sourceTree = "<group>"; };
+		ACAA3E1327B4E7230003990D /* contributors.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = contributors.html; path = "../../AutoJoomer-Safari/contributors.html"; sourceTree = "<group>"; };
+		ACAA3E1427B4E7230003990D /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = "../../AutoJoomer-Safari/CONTRIBUTING.md"; sourceTree = "<group>"; };
+		ACAA3E1527B4E7230003990D /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = style.css; path = "../../AutoJoomer-Safari/style.css"; sourceTree = "<group>"; };
+		ACAA3E1627B4E7230003990D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../AutoJoomer-Safari/manifest.json"; sourceTree = "<group>"; };
+		ACAA3E1727B4E7230003990D /* version_updates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = version_updates.json; path = "../../AutoJoomer-Safari/version_updates.json"; sourceTree = "<group>"; };
+		ACAA3E1827B4E7230003990D /* contributors.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = contributors.css; path = "../../AutoJoomer-Safari/contributors.css"; sourceTree = "<group>"; };
+		ACAA3E1927B4E7230003990D /* firebase-database.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "firebase-database.js"; path = "../../AutoJoomer-Safari/firebase-database.js"; sourceTree = "<group>"; };
+		ACAA3E1A27B4E7230003990D /* timetable.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = timetable.js; path = "../../AutoJoomer-Safari/timetable.js"; sourceTree = "<group>"; };
+		ACAA3E1B27B4E7230003990D /* firebase-analytics.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "firebase-analytics.js"; path = "../../AutoJoomer-Safari/firebase-analytics.js"; sourceTree = "<group>"; };
+		ACAA3E1C27B4E7230003990D /* cool-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cool-background.png"; path = "../../AutoJoomer-Safari/cool-background.png"; sourceTree = "<group>"; };
+		ACAA3E1D27B4E7230003990D /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reload.png; path = "../../AutoJoomer-Safari/reload.png"; sourceTree = "<group>"; };
+		ACAA3E1E27B4E7230003990D /* jquery.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = jquery.js; path = "../../AutoJoomer-Safari/jquery.js"; sourceTree = "<group>"; };
+		ACC3CB3A27B545BF00A4CA8F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAA3DB627B4E7220003990D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA3DC827B4E7220003990D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA3DD527B4E7220003990D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA3DDF27B4E7220003990D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAA3DA527B4E7200003990D = {
+			isa = PBXGroup;
+			children = (
+				ACAA3DAA27B4E7200003990D /* Shared (App) */,
+				ACAA3DB327B4E7220003990D /* Shared (Extension) */,
+				ACAA3DBB27B4E7220003990D /* iOS (App) */,
+				ACAA3DCC27B4E7220003990D /* macOS (App) */,
+				ACAA3DDC27B4E7220003990D /* iOS (Extension) */,
+				ACAA3DE627B4E7220003990D /* macOS (Extension) */,
+				ACAA3DBA27B4E7220003990D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAA3DAA27B4E7200003990D /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA3DB127B4E7200003990D /* ViewController.swift */,
+				ACAA3DB227B4E7220003990D /* Assets.xcassets */,
+				ACAA3DAB27B4E7200003990D /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		ACAA3DAB27B4E7200003990D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA3DAC27B4E7200003990D /* Main.html */,
+				ACAA3DAE27B4E7200003990D /* Icon.png */,
+				ACAA3DAF27B4E7200003990D /* Style.css */,
+				ACAA3DB027B4E7200003990D /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ACAA3DB327B4E7220003990D /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA3E0727B4E7230003990D /* Resources */,
+				ACAA3DB427B4E7220003990D /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		ACAA3DBA27B4E7220003990D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA3DB927B4E7220003990D /* AutoJoomer.app */,
+				ACAA3DCB27B4E7220003990D /* AutoJoomer.app */,
+				ACAA3DD827B4E7220003990D /* AutoJoomer Extension.appex */,
+				ACAA3DE227B4E7220003990D /* AutoJoomer Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAA3DBB27B4E7220003990D /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA3DBC27B4E7220003990D /* AppDelegate.swift */,
+				ACAA3DBE27B4E7220003990D /* SceneDelegate.swift */,
+				ACAA3DC027B4E7220003990D /* LaunchScreen.storyboard */,
+				ACAA3DC327B4E7220003990D /* Main.storyboard */,
+				ACAA3DC627B4E7220003990D /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		ACAA3DCC27B4E7220003990D /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA3DCD27B4E7220003990D /* AppDelegate.swift */,
+				ACAA3DCF27B4E7220003990D /* Main.storyboard */,
+				ACAA3DD227B4E7220003990D /* Info.plist */,
+				ACAA3DD327B4E7220003990D /* AutoJoomer.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		ACAA3DDC27B4E7220003990D /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA3DDD27B4E7220003990D /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		ACAA3DE627B4E7220003990D /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ACAA3DE727B4E7220003990D /* Info.plist */,
+				ACAA3DE827B4E7220003990D /* AutoJoomer.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		ACAA3E0727B4E7230003990D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACC3CB3A27B545BF00A4CA8F /* icon.png */,
+				ACAA3E0927B4E7230003990D /* full_page.html */,
+				ACAA3E0A27B4E7230003990D /* popup.js */,
+				ACAA3E0B27B4E7230003990D /* autojoomer.png */,
+				ACAA3E0C27B4E7230003990D /* logger.js */,
+				ACAA3E0D27B4E7230003990D /* LICENSE */,
+				ACAA3E0E27B4E7230003990D /* backup.json */,
+				ACAA3E0F27B4E7230003990D /* popup.html */,
+				ACAA3E1027B4E7230003990D /* firebase-app.js */,
+				ACAA3E1127B4E7230003990D /* script.js */,
+				ACAA3E1227B4E7230003990D /* ajax.js */,
+				ACAA3E1327B4E7230003990D /* contributors.html */,
+				ACAA3E1427B4E7230003990D /* CONTRIBUTING.md */,
+				ACAA3E1527B4E7230003990D /* style.css */,
+				ACAA3E1627B4E7230003990D /* manifest.json */,
+				ACAA3E1727B4E7230003990D /* version_updates.json */,
+				ACAA3E1827B4E7230003990D /* contributors.css */,
+				ACAA3E1927B4E7230003990D /* firebase-database.js */,
+				ACAA3E1A27B4E7230003990D /* timetable.js */,
+				ACAA3E1B27B4E7230003990D /* firebase-analytics.js */,
+				ACAA3E1C27B4E7230003990D /* cool-background.png */,
+				ACAA3E1D27B4E7230003990D /* reload.png */,
+				ACAA3E1E27B4E7230003990D /* jquery.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAA3DB827B4E7220003990D /* AutoJoomer (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAA3DFD27B4E7220003990D /* Build configuration list for PBXNativeTarget "AutoJoomer (iOS)" */;
+			buildPhases = (
+				ACAA3DB527B4E7220003990D /* Sources */,
+				ACAA3DB627B4E7220003990D /* Frameworks */,
+				ACAA3DB727B4E7220003990D /* Resources */,
+				ACAA3DFC27B4E7220003990D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAA3DDB27B4E7220003990D /* PBXTargetDependency */,
+			);
+			name = "AutoJoomer (iOS)";
+			productName = "AutoJoomer (iOS)";
+			productReference = ACAA3DB927B4E7220003990D /* AutoJoomer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAA3DCA27B4E7220003990D /* AutoJoomer (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAA3E0427B4E7220003990D /* Build configuration list for PBXNativeTarget "AutoJoomer (macOS)" */;
+			buildPhases = (
+				ACAA3DC727B4E7220003990D /* Sources */,
+				ACAA3DC827B4E7220003990D /* Frameworks */,
+				ACAA3DC927B4E7220003990D /* Resources */,
+				ACAA3E0327B4E7220003990D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAA3DE527B4E7220003990D /* PBXTargetDependency */,
+			);
+			name = "AutoJoomer (macOS)";
+			productName = "AutoJoomer (macOS)";
+			productReference = ACAA3DCB27B4E7220003990D /* AutoJoomer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAA3DD727B4E7220003990D /* AutoJoomer Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAA3DF927B4E7220003990D /* Build configuration list for PBXNativeTarget "AutoJoomer Extension (iOS)" */;
+			buildPhases = (
+				ACAA3DD427B4E7220003990D /* Sources */,
+				ACAA3DD527B4E7220003990D /* Frameworks */,
+				ACAA3DD627B4E7220003990D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoJoomer Extension (iOS)";
+			productName = "AutoJoomer Extension (iOS)";
+			productReference = ACAA3DD827B4E7220003990D /* AutoJoomer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		ACAA3DE127B4E7220003990D /* AutoJoomer Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAA3E0027B4E7220003990D /* Build configuration list for PBXNativeTarget "AutoJoomer Extension (macOS)" */;
+			buildPhases = (
+				ACAA3DDE27B4E7220003990D /* Sources */,
+				ACAA3DDF27B4E7220003990D /* Frameworks */,
+				ACAA3DE027B4E7220003990D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoJoomer Extension (macOS)";
+			productName = "AutoJoomer Extension (macOS)";
+			productReference = ACAA3DE227B4E7220003990D /* AutoJoomer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAA3DA627B4E7200003990D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ACAA3DB827B4E7220003990D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ACAA3DCA27B4E7220003990D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ACAA3DD727B4E7220003990D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ACAA3DE127B4E7220003990D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ACAA3DA927B4E7200003990D /* Build configuration list for PBXProject "AutoJoomer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACAA3DA527B4E7200003990D;
+			productRefGroup = ACAA3DBA27B4E7220003990D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAA3DB827B4E7220003990D /* AutoJoomer (iOS) */,
+				ACAA3DCA27B4E7220003990D /* AutoJoomer (macOS) */,
+				ACAA3DD727B4E7220003990D /* AutoJoomer Extension (iOS) */,
+				ACAA3DE127B4E7220003990D /* AutoJoomer Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAA3DB727B4E7220003990D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA3DEB27B4E7220003990D /* Icon.png in Resources */,
+				ACAA3DC227B4E7220003990D /* LaunchScreen.storyboard in Resources */,
+				ACAA3DE927B4E7220003990D /* Main.html in Resources */,
+				ACAA3DEF27B4E7220003990D /* Script.js in Resources */,
+				ACC3CB3B27B545BF00A4CA8F /* icon.png in Resources */,
+				ACAA3DF327B4E7220003990D /* Assets.xcassets in Resources */,
+				ACAA3DC527B4E7220003990D /* Main.storyboard in Resources */,
+				ACAA3DED27B4E7220003990D /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA3DC927B4E7220003990D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA3DEC27B4E7220003990D /* Icon.png in Resources */,
+				ACC3CB3C27B545BF00A4CA8F /* icon.png in Resources */,
+				ACAA3DEE27B4E7220003990D /* Style.css in Resources */,
+				ACAA3DD127B4E7220003990D /* Main.storyboard in Resources */,
+				ACAA3DF027B4E7220003990D /* Script.js in Resources */,
+				ACAA3DF427B4E7220003990D /* Assets.xcassets in Resources */,
+				ACAA3DEA27B4E7220003990D /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA3DD627B4E7220003990D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA3E3B27B4E7230003990D /* LICENSE in Resources */,
+				ACAA3E3E27B4E7230003990D /* firebase-app.js in Resources */,
+				ACAA3E4127B4E7230003990D /* contributors.html in Resources */,
+				ACAA3E4C27B4E7230003990D /* jquery.js in Resources */,
+				ACAA3E3D27B4E7230003990D /* popup.html in Resources */,
+				ACAA3E3C27B4E7230003990D /* backup.json in Resources */,
+				ACAA3E3727B4E7230003990D /* full_page.html in Resources */,
+				ACAA3E3F27B4E7230003990D /* script.js in Resources */,
+				ACAA3E4527B4E7230003990D /* version_updates.json in Resources */,
+				ACAA3E4427B4E7230003990D /* manifest.json in Resources */,
+				ACAA3E3A27B4E7230003990D /* logger.js in Resources */,
+				ACAA3E4B27B4E7230003990D /* reload.png in Resources */,
+				ACAA3E3827B4E7230003990D /* popup.js in Resources */,
+				ACAA3E4327B4E7230003990D /* style.css in Resources */,
+				ACAA3E4727B4E7230003990D /* firebase-database.js in Resources */,
+				ACAA3E4A27B4E7230003990D /* cool-background.png in Resources */,
+				ACAA3E3927B4E7230003990D /* autojoomer.png in Resources */,
+				ACAA3E4827B4E7230003990D /* timetable.js in Resources */,
+				ACAA3E4227B4E7230003990D /* CONTRIBUTING.md in Resources */,
+				ACAA3E4027B4E7230003990D /* ajax.js in Resources */,
+				ACC3CB3D27B545BF00A4CA8F /* icon.png in Resources */,
+				ACAA3E4627B4E7230003990D /* contributors.css in Resources */,
+				ACAA3E4927B4E7230003990D /* firebase-analytics.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA3DE027B4E7220003990D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA3E2427B4E7230003990D /* LICENSE in Resources */,
+				ACAA3E2727B4E7230003990D /* firebase-app.js in Resources */,
+				ACAA3E2A27B4E7230003990D /* contributors.html in Resources */,
+				ACAA3E3527B4E7230003990D /* jquery.js in Resources */,
+				ACAA3E2627B4E7230003990D /* popup.html in Resources */,
+				ACAA3E2527B4E7230003990D /* backup.json in Resources */,
+				ACAA3E2027B4E7230003990D /* full_page.html in Resources */,
+				ACAA3E2827B4E7230003990D /* script.js in Resources */,
+				ACAA3E2E27B4E7230003990D /* version_updates.json in Resources */,
+				ACAA3E2D27B4E7230003990D /* manifest.json in Resources */,
+				ACAA3E2327B4E7230003990D /* logger.js in Resources */,
+				ACAA3E3427B4E7230003990D /* reload.png in Resources */,
+				ACAA3E2127B4E7230003990D /* popup.js in Resources */,
+				ACAA3E2C27B4E7230003990D /* style.css in Resources */,
+				ACAA3E3027B4E7230003990D /* firebase-database.js in Resources */,
+				ACAA3E3327B4E7230003990D /* cool-background.png in Resources */,
+				ACAA3E2227B4E7230003990D /* autojoomer.png in Resources */,
+				ACAA3E3127B4E7230003990D /* timetable.js in Resources */,
+				ACAA3E2B27B4E7230003990D /* CONTRIBUTING.md in Resources */,
+				ACAA3E2927B4E7230003990D /* ajax.js in Resources */,
+				ACC3CB3E27B545BF00A4CA8F /* icon.png in Resources */,
+				ACAA3E2F27B4E7230003990D /* contributors.css in Resources */,
+				ACAA3E3227B4E7230003990D /* firebase-analytics.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAA3DB527B4E7220003990D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA3DF127B4E7220003990D /* ViewController.swift in Sources */,
+				ACAA3DBD27B4E7220003990D /* AppDelegate.swift in Sources */,
+				ACAA3DBF27B4E7220003990D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA3DC727B4E7220003990D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA3DF227B4E7220003990D /* ViewController.swift in Sources */,
+				ACAA3DCE27B4E7220003990D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA3DD427B4E7220003990D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA3DF527B4E7220003990D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAA3DDE27B4E7220003990D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAA3DF627B4E7220003990D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACAA3DDB27B4E7220003990D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAA3DD727B4E7220003990D /* AutoJoomer Extension (iOS) */;
+			targetProxy = ACAA3DDA27B4E7220003990D /* PBXContainerItemProxy */;
+		};
+		ACAA3DE527B4E7220003990D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAA3DE127B4E7220003990D /* AutoJoomer Extension (macOS) */;
+			targetProxy = ACAA3DE427B4E7220003990D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACAA3DAC27B4E7200003990D /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAA3DAD27B4E7200003990D /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		ACAA3DC027B4E7220003990D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAA3DC127B4E7220003990D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ACAA3DC327B4E7220003990D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAA3DC427B4E7220003990D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACAA3DCF27B4E7220003990D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAA3DD027B4E7220003990D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAA3DF727B4E7220003990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACAA3DF827B4E7220003990D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ACAA3DFA27B4E7220003990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AutoJoomer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.AutoJoomer.Extension;
+				PRODUCT_NAME = "AutoJoomer Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACAA3DFB27B4E7220003990D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AutoJoomer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.AutoJoomer.Extension;
+				PRODUCT_NAME = "AutoJoomer Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAA3DFE27B4E7220003990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AutoJoomer;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.AutoJoomer;
+				PRODUCT_NAME = AutoJoomer;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACAA3DFF27B4E7220003990D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AutoJoomer;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.AutoJoomer;
+				PRODUCT_NAME = AutoJoomer;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAA3E0127B4E7220003990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/AutoJoomer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AutoJoomer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.AutoJoomer.Extension;
+				PRODUCT_NAME = "AutoJoomer Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ACAA3E0227B4E7220003990D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/AutoJoomer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AutoJoomer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.AutoJoomer.Extension;
+				PRODUCT_NAME = "AutoJoomer Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ACAA3E0527B4E7220003990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/AutoJoomer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AutoJoomer;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.AutoJoomer;
+				PRODUCT_NAME = AutoJoomer;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ACAA3E0627B4E7220003990D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/AutoJoomer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AutoJoomer;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.AutoJoomer;
+				PRODUCT_NAME = AutoJoomer;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAA3DA927B4E7200003990D /* Build configuration list for PBXProject "AutoJoomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAA3DF727B4E7220003990D /* Debug */,
+				ACAA3DF827B4E7220003990D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAA3DF927B4E7220003990D /* Build configuration list for PBXNativeTarget "AutoJoomer Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAA3DFA27B4E7220003990D /* Debug */,
+				ACAA3DFB27B4E7220003990D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAA3DFD27B4E7220003990D /* Build configuration list for PBXNativeTarget "AutoJoomer (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAA3DFE27B4E7220003990D /* Debug */,
+				ACAA3DFF27B4E7220003990D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAA3E0027B4E7220003990D /* Build configuration list for PBXNativeTarget "AutoJoomer Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAA3E0127B4E7220003990D /* Debug */,
+				ACAA3E0227B4E7220003990D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAA3E0427B4E7220003990D /* Build configuration list for PBXNativeTarget "AutoJoomer (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAA3E0527B4E7220003990D /* Debug */,
+				ACAA3E0627B4E7220003990D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAA3DA627B4E7200003990D /* Project object */;
+}
