@@ -36,7 +36,7 @@
 
     
 
-# AutoJoomer
+# AutoJoomer <img src="https://github.com/adityagi02/AutoJoomer/blob/main/Shared%20(Extension)/icon.png" alt="AutoJoomer icon" width="35" height="35"></a>
 AutoJoomer will help you join classes on time (IIIT Kottayam) by automatic log-in. In case you open your browser after a class has already started, the extension will automatically add you to that class as well, as the class started in the last hour. Works for all classes, including labs; and also coding classes; fetches data from hosted database which can be changed whenever there are changes in the timetable.
 
 
@@ -67,6 +67,10 @@ DONE!!
 4. Tap on "AutoJoomer" and then "Always allow".
 
 There we go!!
+
+
+## For other Browsers(Chrome, Mozilla, etc)
+Here's Vishal Lokare's amazing <a href="https://github.com/vishal-lokare/AutoJoomer"><b>AutoJoomer.  </b><img src="https://github.com/vishal-lokare/AutoJoomer/blob/main/autojoomer.png" alt="AutoJoomer Discord" width="25" height="25"></a>
 
 
 ## How to stay updated
